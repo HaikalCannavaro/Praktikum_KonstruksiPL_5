@@ -33,11 +33,13 @@ public class program
     {
         PemrosesData pemroses = new PemrosesData();
         pemroses.DapatkanNilaiTerbesar(10, 30, 22);
-        SimpleDataBase<int> x = new SimpleDataBase<int> ();
+        SimpleDataBase<int> x = new SimpleDataBase<int>();
         x.AddNewData(10);
         x.AddNewData(30);
         x.AddNewData(22);
         x.PrintAllData();
+    }
+}
         
 public class PemrosesData 
 {
