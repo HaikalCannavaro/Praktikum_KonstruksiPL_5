@@ -33,5 +33,6 @@ class program
     {
         PemrosesData pemroses = new PemrosesData();
         pemroses.DapatkanNilaiTerbesar(10, 30, 22);
+
     }
 }
